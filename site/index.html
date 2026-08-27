@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#08111e">
+  <meta name="description" content="Daily S&P 500 Markov and SMA trend scanner">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Northstar — Daily Market Scanner</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="app-header shell">
+    <a class="brand" href="./" aria-label="Northstar home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><path d="M24 4l4.7 15.3L44 24l-15.3 4.7L24 44l-4.7-15.3L4 24l15.3-4.7L24 4z"/><circle cx="24" cy="24" r="4.2"/></svg>
+      </span>
+      <span><strong>Northstar</strong><small>S&amp;P 500 SYSTEMATIC SCAN</small></span>
+    </a>
+    <div class="header-actions">
+      <button class="button ghost hidden" id="install-button" type="button">Install app</button>
+      <a class="button primary" href="https://github.com/JoshuaTayYiJie/sp500-markov-scanner/actions/workflows/daily-scan.yml" target="_blank" rel="noopener">Run scan</a>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> Completed-candle research</div>
+        <h1>Signal clarity,<br><span>without the noise.</span></h1>
+        <p>Eight disciplined filters. One ranked daily shortlist. Final decisions remain yours.</p>
+      </div>
+      <div class="scan-stamp glass-card">
+        <div class="stamp-row"><span>Session</span><strong id="session-date">—</strong></div>
+        <div class="stamp-row"><span>Generated</span><strong id="generated-time">—</strong></div>
+        <div class="stamp-row"><span>Universe source</span><strong id="source-label">—</strong></div>
+        <div class="stamp-status" id="scan-status"><span></span> Loading latest scan</div>
+      </div>
+    </section>
+
+    <section class="control-strip glass-card" aria-label="Dashboard controls">
+      <label class="select-wrap">
+        <span>Scan history</span>
+        <select id="history-select"><option value="latest">Latest scan</option></select>
+      </label>
+      <div class="control-links">
+        <a href="data/qualified.csv" download>Qualified CSV</a>
+        <a href="data/diagnostics.csv" download>Diagnostics CSV</a>
+        <button id="reload-button" type="button">Refresh dashboard</button>
+      </div>
+    </section>
+
+    <section class="summary-grid" aria-label="Scan summary">
+      <article class="summary-card accent-card"><span>Qualified</span><strong id="qualified-count">—</strong><small>passed all 8 rules</small></article>
+      <article class="summary-card"><span>Analyzed</span><strong id="analyzed-count">—</strong><small id="coverage-label">of — securities</small></article>
+      <article class="summary-card"><span>Bull regime</span><strong id="bull-count">—</strong><small>20-day state</small></article>
+      <article class="summary-card"><span>SMA uptrend</span><strong id="sma-count">—</strong><small>50-day above 200-day</small></article>
+    </section>
+
+    <nav class="tabs" aria-label="Dashboard sections">
+      <button class="tab active" data-tab="qualified" type="button">Qualified</button>
+      <button class="tab" data-tab="near-misses" type="button">Near misses</button>
+      <button class="tab" data-tab="funnel" type="button">Funnel</button>
+      <button class="tab" data-tab="method" type="button">Method</button>
+    </nav>
+
+    <section class="panel active" id="panel-qualified">
+      <div class="section-heading">
+        <div><span class="section-kicker">TODAY'S SHORTLIST</span><h2>Qualified candidates</h2></div>
+        <div class="list-controls">
+          <input id="candidate-search" type="search" placeholder="Search ticker or company" aria-label="Search candidates">
+          <select id="candidate-sort" aria-label="Sort candidates">
+            <option value="conviction">Highest conviction</option>
+            <option value="signal25">Strongest 25-day check</option>
+            <option value="return">Highest 20-day return</option>
+            <option value="sample">Largest sample</option>
+            <option value="extension">Least extended</option>
+          </select>
+        </div>
+      </div>
+      <div class="notice" id="qualified-notice"></div>
+      <div class="candidate-grid" id="qualified-list" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" id="panel-near-misses">
+      <div class="section-heading">
+        <div><span class="section-kicker">WATCH, DON'T FORCE</span><h2>Closest near misses</h2></div>
+      </div>
+      <p class="section-description">These names failed at least one rule. They are diagnostic watchlist items, not qualified trades.</p>
+      <div class="near-list" id="near-list"></div>
+    </section>
+
+    <section class="panel" id="panel-funnel">
+      <div class="section-heading">
+        <div><span class="section-kicker">SELECTION BREADTH</span><h2>Independent rule funnel</h2></div>
+      </div>
+      <p class="section-description">Each bar shows how many analyzed securities independently pass that rule. “Qualified” requires all eight simultaneously.</p>
+      <div class="funnel-list" id="funnel-list"></div>
+    </section>
+
+    <section class="panel" id="panel-method">
+      <div class="section-heading">
+        <div><span class="section-kicker">LOCKED LOGIC</span><h2>Eight required conditions</h2></div>
+      </div>
+      <div class="rule-grid" id="rule-grid"></div>
+      <div class="method-notes glass-card">
+        <h3>How to use this dashboard</h3>
+        <ol>
+          <li>Review the ranked shortlist after the completed U.S. daily candle.</li>
+          <li>Open finalists in TradingView and confirm the live Bull regime, signal, sample size, and SMA structure.</li>
+          <li>Do not chase highly extended names simply because they rank highly.</li>
+          <li>Reference stops and targets use the completed close. Recalculate risk at the actual entry.</li>
+          <li>No qualified candidates is a valid outcome. Do not lower thresholds to force activity.</li>
+        </ol>
+        <div class="method-warning">Research and paper-trading tool only. The supporting equity backtest has documented limitations and does not guarantee future performance.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <div><strong>Northstar Scanner</strong><span>Price-only Markov 20/25 + SMA50&gt;SMA200</span></div>
+    <a href="https://github.com/JoshuaTayYiJie/sp500-markov-scanner" target="_blank" rel="noopener">View repository</a>
+  </footer>
+
+  <dialog id="detail-dialog">
+    <button class="dialog-close" id="dialog-close" type="button" aria-label="Close details">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <div class="loading-overlay" id="loading-overlay"><div class="spinner"></div><span>Loading scan data…</span></div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <noscript><div class="noscript">JavaScript is required to display the scanner dashboard.</div></noscript>
+  <script src="app.js" defer></script>
+</body>
+</html>

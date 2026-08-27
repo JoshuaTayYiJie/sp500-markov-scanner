@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-08-26",
+    "qualified_count": 10,
+    "tickers": [
+      "TRGP",
+      "NVDA",
+      "LITE",
+      "DELL",
+      "STX",
+      "ANET",
+      "MU",
+      "AMD",
+      "AMGN",
+      "MRVL"
+    ],
+    "file": "2026-08-26.json"
+  },
+  {
+    "date": "2026-08-25",
+    "qualified_count": 8,
+    "tickers": [
+      "TRGP",
+      "NVDA",
+      "CPAY",
+      "LITE",
+      "ANET",
+      "BKNG",
+      "AMGN",
+      "MRVL"
+    ],
+    "file": "2026-08-25.json"
+  }
+]
