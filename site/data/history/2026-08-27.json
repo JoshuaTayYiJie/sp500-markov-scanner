@@ -3,7 +3,7 @@
     "schema_version": 1,
     "completed_session": "2026-08-27",
     "latest_symbol_data_date": "2026-08-27",
-    "generated_at_utc": "2026-08-28T04:38:28.388183+00:00",
+    "generated_at_utc": "2026-08-28T06:14:20.512125+00:00",
     "constituent_source": "Wikipedia current constituents",
     "method": "Price-only Markov 20/25 + SMA50>SMA200",
     "ranking": "Conviction, then 25-day signal, then sample size"
