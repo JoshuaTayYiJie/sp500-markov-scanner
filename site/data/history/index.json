@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-27",
+    "qualified_count": 9,
+    "tickers": [
+      "VRT",
+      "TRGP",
+      "NVDA",
+      "LITE",
+      "DELL",
+      "ANET",
+      "MU",
+      "AMGN",
+      "MRVL"
+    ],
+    "file": "2026-08-27.json"
+  },
+  {
     "date": "2026-08-26",
     "qualified_count": 10,
     "tickers": [
