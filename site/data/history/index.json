@@ -1,12 +1,11 @@
 [
   {
     "date": "2026-09-04",
-    "qualified_count": 6,
+    "qualified_count": 5,
     "tickers": [
       "TRGP",
+      "CMG",
       "DELL",
-      "ABBV",
-      "ROP",
       "MU",
       "AMGN"
     ],
