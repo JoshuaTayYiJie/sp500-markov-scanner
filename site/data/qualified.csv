@@ -1,4 +1,5 @@
 data_date,ticker,name,regime,signal,conviction,p_sideways,p_bull,p_bear,cur_ret_pct,bars_in_regime,n,signal25,n25,close,sma50,sma200,sma_spread_pct,close_vs_sma50_pct,close_vs_sma200_pct,atr14,reference_stop,reference_target,reward_risk,pass_count,pass_all,pass_1_bull,pass_2_return,pass_3_hold,pass_4_conviction,pass_5_positive,pass_6_sample,pass_7_crosscheck,pass_8_sma,failed_rules
-2026-09-10,TRGP,Targa Resources,Bull,0.2805,0.2805,0.378,0.4512,0.1707,8.3,15,197,0.2787,157,291.91,279.07,239.8,16.37,4.6,21.73,7.71,276.49,321.52,1.92,8,True,True,True,True,True,True,True,True,True,
-2026-09-10,CMG,Chipotle Mexican Grill,Bull,0.25,0.25,0.4375,0.4062,0.1562,10.16,7,258,0.2222,206,36.13,35.05,34.94,0.32,3.09,3.42,1.16,33.82,40.47,1.88,8,True,True,True,True,True,True,True,True,True,
-2026-09-10,MU,Micron Technology,Bull,0.1735,0.1735,0.242,0.4658,0.2922,7.0,6,531,0.1341,425,977.41,929.75,618.23,50.39,5.13,58.1,53.78,869.84,1166.76,1.76,8,True,True,True,True,True,True,True,True,True,
+2026-09-11,TRGP,Targa Resources,Bull,0.2805,0.2805,0.378,0.4512,0.1707,8.39,16,197,0.2787,157,290.25,279.72,240.4,16.35,3.77,20.73,7.67,274.9,319.73,1.92,8,True,True,True,True,True,True,True,True,True,
+2026-09-11,CMG,Chipotle Mexican Grill,Bull,0.25,0.25,0.4375,0.4062,0.1562,10.44,8,258,0.2,206,36.2,35.07,34.96,0.32,3.22,3.55,1.14,33.91,40.49,1.88,8,True,True,True,True,True,True,True,True,True,
+2026-09-11,BBY,Best Buy,Bull,0.2435,0.2435,0.3523,0.4456,0.2021,6.19,6,520,0.2195,416,90.8,84.98,71.75,18.43,6.85,26.54,3.32,84.16,103.18,1.87,8,True,True,True,True,True,True,True,True,True,
+2026-09-11,AAPL,Apple Inc.,Bull,0.1591,0.1591,0.3409,0.4091,0.25,8.48,2,575,0.1047,460,332.27,317.97,284.95,11.59,4.5,16.61,8.05,316.18,360.25,1.74,8,True,True,True,True,True,True,True,True,True,

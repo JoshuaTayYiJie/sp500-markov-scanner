@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-14",
+    "qualified_count": 4,
+    "tickers": [
+      "TRGP",
+      "CMG",
+      "BBY",
+      "AAPL"
+    ],
+    "file": "2026-09-14.json"
+  },
+  {
     "date": "2026-09-11",
     "qualified_count": 3,
     "tickers": [
