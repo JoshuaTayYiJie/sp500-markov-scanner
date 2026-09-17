@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-16",
+    "qualified_count": 6,
+    "tickers": [
+      "FTNT",
+      "BBY",
+      "DELL",
+      "CRWD",
+      "PGR",
+      "AAPL"
+    ],
+    "file": "2026-09-16.json"
+  },
+  {
     "date": "2026-09-15",
     "qualified_count": 4,
     "tickers": [
