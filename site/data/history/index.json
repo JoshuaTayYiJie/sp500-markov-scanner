@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-28",
+    "qualified_count": 7,
+    "tickers": [
+      "DELL",
+      "CRWD",
+      "STX",
+      "MU",
+      "AMD",
+      "MRVL",
+      "FFIV"
+    ],
+    "file": "2026-09-28.json"
+  },
+  {
     "date": "2026-09-25",
     "qualified_count": 9,
     "tickers": [
