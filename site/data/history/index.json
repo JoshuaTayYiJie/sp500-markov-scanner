@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-02",
+    "qualified_count": 11,
+    "tickers": [
+      "FTNT",
+      "LITE",
+      "DELL",
+      "CRWD",
+      "STX",
+      "MU",
+      "ANET",
+      "AMAT",
+      "AMD",
+      "MRVL",
+      "FFIV"
+    ],
+    "file": "2026-10-02.json"
+  },
+  {
     "date": "2026-10-01",
     "qualified_count": 11,
     "tickers": [
