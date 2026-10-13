@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-12",
+    "qualified_count": 13,
+    "tickers": [
+      "FTNT",
+      "LITE",
+      "CRWD",
+      "ABBV",
+      "PWR",
+      "MU",
+      "ANET",
+      "TWLO",
+      "AMAT",
+      "AMD",
+      "MRVL",
+      "AMGN",
+      "FFIV"
+    ],
+    "file": "2026-10-12.json"
+  },
+  {
     "date": "2026-10-09",
     "qualified_count": 12,
     "tickers": [
@@ -420,21 +440,5 @@
       "MRVL"
     ],
     "file": "2026-08-31.json"
-  },
-  {
-    "date": "2026-08-28",
-    "qualified_count": 9,
-    "tickers": [
-      "VRT",
-      "TRGP",
-      "NVDA",
-      "LITE",
-      "DELL",
-      "ANET",
-      "MU",
-      "AMGN",
-      "MRVL"
-    ],
-    "file": "2026-08-28.json"
   }
 ]
