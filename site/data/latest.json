@@ -1,9 +1,9 @@
 {
   "meta": {
     "schema_version": 1,
-    "completed_session": "2026-10-12",
+    "completed_session": "2026-10-13",
     "latest_symbol_data_date": "2026-10-12",
-    "generated_at_utc": "2026-10-13T03:07:30.338755+00:00",
+    "generated_at_utc": "2026-10-14T01:20:20.303848+00:00",
     "constituent_source": "Wikipedia current constituents",
     "method": "Price-only Markov 20/25 + SMA50>SMA200",
     "ranking": "Conviction, then 25-day signal, then sample size"
@@ -13,7 +13,7 @@
     "analyzed": 499,
     "unavailable": 4,
     "qualified": 13,
-    "bull_regime": 87,
+    "bull_regime": 88,
     "sma_uptrend": 303,
     "positive_signal": 449
   },
@@ -63,20 +63,20 @@
     {
       "key": "pass_1_bull",
       "label": "Bull regime",
-      "count": 87,
-      "percent": 17.4
+      "count": 88,
+      "percent": 17.6
     },
     {
       "key": "pass_2_return",
       "label": "20-day return ≥ +6%",
-      "count": 75,
-      "percent": 15.0
+      "count": 76,
+      "percent": 15.2
     },
     {
       "key": "pass_3_hold",
       "label": "Regime held ≥ 2 bars",
-      "count": 430,
-      "percent": 86.2
+      "count": 429,
+      "percent": 86.0
     },
     {
       "key": "pass_4_conviction",
