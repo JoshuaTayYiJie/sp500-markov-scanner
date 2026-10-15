@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-14",
+    "qualified_count": 11,
+    "tickers": [
+      "FTNT",
+      "LITE",
+      "CRWD",
+      "PWR",
+      "TWLO",
+      "AMAT",
+      "AMD",
+      "MRVL",
+      "AMGN",
+      "META",
+      "FFIV"
+    ],
+    "file": "2026-10-14.json"
+  },
+  {
     "date": "2026-10-13",
     "qualified_count": 13,
     "tickers": [
@@ -435,15 +453,5 @@
       "AMGN"
     ],
     "file": "2026-09-02.json"
-  },
-  {
-    "date": "2026-09-01",
-    "qualified_count": 3,
-    "tickers": [
-      "TRGP",
-      "ROP",
-      "AMGN"
-    ],
-    "file": "2026-09-01.json"
   }
 ]
