@@ -1,5 +1,6 @@
 data_date,ticker,name,regime,signal,conviction,p_sideways,p_bull,p_bear,cur_ret_pct,bars_in_regime,n,signal25,n25,close,sma50,sma200,sma_spread_pct,close_vs_sma50_pct,close_vs_sma200_pct,atr14,reference_stop,reference_target,reward_risk,pass_count,pass_all,pass_1_bull,pass_2_return,pass_3_hold,pass_4_conviction,pass_5_positive,pass_6_sample,pass_7_crosscheck,pass_8_sma,failed_rules
+2026-10-15,ABBV,AbbVie,Bull,0.2041,0.2041,0.5918,0.3061,0.102,7.08,2,172,0.1136,137,283.4,261.62,233.67,11.96,8.33,21.28,6.62,270.16,307.31,1.81,8,True,True,True,True,True,True,True,True,True,
 2026-10-15,DLTR,Dollar Tree,Bull,0.2014,0.2014,0.4532,0.3741,0.1727,8.39,2,396,0.1273,317,124.41,122.39,116.97,4.64,1.65,6.36,3.89,116.64,138.42,1.8,8,True,True,True,True,True,True,True,True,True,
-2026-10-14,TWLO,Twilio,Bull,0.1731,0.1731,0.3269,0.4231,0.25,12.66,20,128,0.1951,102,271.12,251.33,181.78,38.26,7.87,49.15,14.69,241.74,322.81,1.76,8,True,True,True,True,True,True,True,True,True,
+2026-10-15,TWLO,Twilio,Bull,0.1731,0.1731,0.3269,0.4231,0.25,10.46,21,128,0.1951,102,273.4,252.94,182.44,38.64,8.09,49.86,14.75,243.89,325.32,1.76,8,True,True,True,True,True,True,True,True,True,
 2026-10-15,AMGN,Amgen,Bull,0.1573,0.1573,0.427,0.3652,0.2079,13.35,7,544,0.0671,435,434.03,414.46,368.38,12.51,4.72,17.82,10.91,412.21,471.9,1.74,8,True,True,True,True,True,True,True,True,True,
-2026-10-14,META,Meta Platforms,Bull,0.1538,0.1538,0.4462,0.3538,0.2,9.11,26,180,0.1111,143,737.54,649.89,631.37,2.93,13.49,16.82,24.19,689.17,821.26,1.73,8,True,True,True,True,True,True,True,True,True,
+2026-10-15,META,Meta Platforms,Bull,0.1538,0.1538,0.4462,0.3538,0.2,7.67,27,180,0.1111,143,736.72,652.85,631.76,3.34,12.85,16.61,24.49,687.75,821.48,1.73,8,True,True,True,True,True,True,True,True,True,
