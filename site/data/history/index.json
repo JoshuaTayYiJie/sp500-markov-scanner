@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-10-19",
+    "qualified_count": 4,
+    "tickers": [
+      "ABBV",
+      "DLTR",
+      "AMGN",
+      "META"
+    ],
+    "file": "2026-10-19.json"
+  },
+  {
     "date": "2026-10-16",
     "qualified_count": 5,
     "tickers": [
@@ -443,17 +454,5 @@
       "AMGN"
     ],
     "file": "2026-09-08.json"
-  },
-  {
-    "date": "2026-09-04",
-    "qualified_count": 5,
-    "tickers": [
-      "TRGP",
-      "CMG",
-      "DELL",
-      "MU",
-      "AMGN"
-    ],
-    "file": "2026-09-04.json"
   }
 ]
