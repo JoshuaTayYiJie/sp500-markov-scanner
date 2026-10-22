@@ -1,4 +1,4 @@
 data_date,ticker,name,regime,signal,conviction,p_sideways,p_bull,p_bear,cur_ret_pct,bars_in_regime,n,signal25,n25,close,sma50,sma200,sma_spread_pct,close_vs_sma50_pct,close_vs_sma200_pct,atr14,reference_stop,reference_target,reward_risk,pass_count,pass_all,pass_1_bull,pass_2_return,pass_3_hold,pass_4_conviction,pass_5_positive,pass_6_sample,pass_7_crosscheck,pass_8_sma,failed_rules
-2026-10-19,ABBV,AbbVie,Bull,0.2041,0.2041,0.5918,0.3061,0.102,6.65,4,172,0.1136,137,282.68,263.18,234.22,12.37,7.41,20.69,6.33,270.01,305.56,1.81,8,True,True,True,True,True,True,True,True,True,
-2026-10-19,DLTR,Dollar Tree,Bull,0.2014,0.2014,0.4532,0.3741,0.1727,9.2,4,396,0.1273,317,123.15,122.13,116.97,4.41,0.84,5.28,3.72,115.7,136.57,1.8,8,True,True,True,True,True,True,True,True,True,
-2026-10-19,AMGN,Amgen,Bull,0.1573,0.1573,0.427,0.3652,0.2079,7.77,9,544,0.0671,435,424.94,415.29,369.39,12.43,2.32,15.04,10.6,403.75,461.73,1.74,8,True,True,True,True,True,True,True,True,True,
+2026-10-20,ABBV,AbbVie,Bull,0.2041,0.2041,0.5918,0.3061,0.102,8.62,5,172,0.1136,137,289.08,264.01,234.52,12.57,9.5,23.27,6.47,276.13,312.46,1.81,8,True,True,True,True,True,True,True,True,True,
+2026-10-20,DLTR,Dollar Tree,Bull,0.2014,0.2014,0.4532,0.3741,0.1727,8.27,5,396,0.1385,317,124.96,122.04,116.96,4.35,2.39,6.84,3.75,117.47,138.46,1.8,8,True,True,True,True,True,True,True,True,True,
+2026-10-20,AMGN,Amgen,Bull,0.1573,0.1573,0.427,0.3652,0.2079,6.76,10,545,0.0671,435,438.94,415.73,369.94,12.38,5.58,18.65,10.85,417.25,476.6,1.74,8,True,True,True,True,True,True,True,True,True,
