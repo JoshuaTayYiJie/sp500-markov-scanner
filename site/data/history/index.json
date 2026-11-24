@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-23",
+    "qualified_count": 3,
+    "tickers": [
+      "CPAY",
+      "DLTR",
+      "AIZ"
+    ],
+    "file": "2026-11-23.json"
+  },
+  {
     "date": "2026-11-20",
     "qualified_count": 2,
     "tickers": [
@@ -420,25 +430,5 @@
       "FFIV"
     ],
     "file": "2026-10-13.json"
-  },
-  {
-    "date": "2026-10-12",
-    "qualified_count": 13,
-    "tickers": [
-      "FTNT",
-      "LITE",
-      "CRWD",
-      "ABBV",
-      "PWR",
-      "MU",
-      "ANET",
-      "TWLO",
-      "AMAT",
-      "AMD",
-      "MRVL",
-      "AMGN",
-      "FFIV"
-    ],
-    "file": "2026-10-12.json"
   }
 ]
