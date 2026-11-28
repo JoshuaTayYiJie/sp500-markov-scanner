@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-27",
+    "qualified_count": 6,
+    "tickers": [
+      "CPAY",
+      "DLTR",
+      "AIZ",
+      "ROP",
+      "ARES",
+      "ICE"
+    ],
+    "file": "2026-11-27.json"
+  },
+  {
     "date": "2026-11-25",
     "qualified_count": 6,
     "tickers": [
@@ -406,16 +419,5 @@
       "META"
     ],
     "file": "2026-10-16.json"
-  },
-  {
-    "date": "2026-10-15",
-    "qualified_count": 4,
-    "tickers": [
-      "DLTR",
-      "TWLO",
-      "AMGN",
-      "META"
-    ],
-    "file": "2026-10-15.json"
   }
 ]

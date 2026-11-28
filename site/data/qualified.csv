@@ -1,7 +1,7 @@
 data_date,ticker,name,regime,signal,conviction,p_sideways,p_bull,p_bear,cur_ret_pct,bars_in_regime,n,signal25,n25,close,sma50,sma200,sma_spread_pct,close_vs_sma50_pct,close_vs_sma200_pct,atr14,reference_stop,reference_target,reward_risk,pass_count,pass_all,pass_1_bull,pass_2_return,pass_3_hold,pass_4_conviction,pass_5_positive,pass_6_sample,pass_7_crosscheck,pass_8_sma,failed_rules
-2026-11-25,CPAY,Corpay,Bull,0.2535,0.2535,0.4648,0.3944,0.1408,13.78,4,199,0.1613,159,454.33,415.95,366.41,13.52,9.23,23.99,13.45,427.44,504.9,1.88,8,True,True,True,True,True,True,True,True,True,
-2026-11-25,DLTR,Dollar Tree,Bull,0.2071,0.2071,0.45,0.3786,0.1714,17.97,31,398,0.1385,318,152.21,127.14,118.12,7.64,19.71,28.86,5.96,140.28,173.81,1.81,8,True,True,True,True,True,True,True,True,True,
-2026-11-25,AIZ,Assurant,Bull,0.1972,0.1972,0.7183,0.2394,0.0423,13.36,26,285,0.125,228,325.73,290.2,261.56,10.95,12.24,24.53,6.02,313.69,347.36,1.8,8,True,True,True,True,True,True,True,True,True,
-2026-11-25,ROP,Roper Technologies,Bull,0.1866,0.1866,0.4851,0.3507,0.1642,9.19,2,436,0.0917,349,483.09,417.4,373.55,11.74,15.74,29.32,12.28,458.54,526.79,1.78,8,True,True,True,True,True,True,True,True,True,
-2026-11-25,ARES,Ares Management,Bull,0.18,0.18,0.5,0.34,0.16,7.86,3,157,0.02,125,133.94,124.1,123.28,0.66,7.93,8.65,5.08,123.77,151.94,1.77,8,True,True,True,True,True,True,True,True,True,
-2026-11-25,ICE,Intercontinental Exchange,Bull,0.175,0.175,0.475,0.35,0.175,13.11,3,263,0.0625,210,177.81,162.93,154.79,5.26,9.13,14.88,4.0,169.81,191.91,1.76,8,True,True,True,True,True,True,True,True,True,
+2026-11-27,CPAY,Corpay,Bull,0.2535,0.2535,0.4648,0.3944,0.1408,14.11,5,199,0.1613,159,458.3,417.03,366.97,13.64,9.9,24.89,12.93,432.44,506.92,1.88,8,True,True,True,True,True,True,True,True,True,
+2026-11-27,DLTR,Dollar Tree,Bull,0.2071,0.2071,0.45,0.3786,0.1714,11.78,32,398,0.1385,318,148.53,127.83,118.24,8.11,16.2,25.62,6.06,136.41,170.47,1.81,8,True,True,True,True,True,True,True,True,True,
+2026-11-27,AIZ,Assurant,Bull,0.1972,0.1972,0.7183,0.2394,0.0423,11.44,27,285,0.125,228,328.18,291.08,262.12,11.05,12.74,25.2,5.83,316.53,349.1,1.8,8,True,True,True,True,True,True,True,True,True,
+2026-11-27,ROP,Roper Technologies,Bull,0.1866,0.1866,0.4851,0.3507,0.1642,7.45,3,436,0.0917,349,484.45,419.59,374.31,12.1,15.46,29.43,12.21,460.03,527.91,1.78,8,True,True,True,True,True,True,True,True,True,
+2026-11-27,ARES,Ares Management,Bull,0.18,0.18,0.5,0.34,0.16,6.82,4,157,0.02,125,136.46,124.32,123.27,0.85,9.76,10.7,4.94,126.57,153.96,1.77,8,True,True,True,True,True,True,True,True,True,
+2026-11-27,ICE,Intercontinental Exchange,Bull,0.175,0.175,0.475,0.35,0.175,9.05,4,263,0.0625,210,178.49,163.43,154.92,5.5,9.21,15.22,3.85,170.8,192.05,1.76,8,True,True,True,True,True,True,True,True,True,
